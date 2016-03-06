@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include <cmath>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[])
+{
+    using namespace std;
+    
+    double area;
+    cout << "Enter the floor area, in square feet, of your homme: ";
+    
+    cin >> area;
+    double side;
+    side = sqrt(area);
+
+    cout << "That is the equivalent of a square " << side
+    << " feet to he side." << endl;
+    cout << "How fascinating!" << endl;
+    
     return 0;
 }
