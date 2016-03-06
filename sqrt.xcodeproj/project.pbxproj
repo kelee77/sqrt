@@ -207,6 +207,7 @@
 		352147741C8BE8DC0027692D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +215,7 @@
 		352147751C8BE8DC0027692D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
